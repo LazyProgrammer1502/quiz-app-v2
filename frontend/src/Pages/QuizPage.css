@@ -1,0 +1,132 @@
+.body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no__questions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  background-color: #5b93cf;
+  border-radius: 10px;
+}
+.main__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+  width: 700px;
+  background-color: #eeeeee;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.quiz__header {
+  background-color: #666666;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.quiz__header .quiz__title,
+.quiz__description {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quiz__body {
+  background-color: #5b93cf;
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.quiz__body .option__table {
+  list-style-type: none;
+  text-align: left;
+}
+
+.quiz__buttons button {
+  background-color: #125cb4;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.quiz__buttons button:disabled {
+  background-color: #f9f9f9;
+  color: black;
+  border: none;
+}
+
+/* MOBILE DISPLAY */
+
+@media only screen and (max-width: 425px) {
+  .body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eeeeee;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .quiz__header {
+    background-color: #666666;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    color: white;
+  }
+  .quiz__body {
+    background-color: #5b93cf;
+    list-style-type: none;
+    padding: 10px;
+    height: 70%;
+    width: 90%;
+    margin: 10px 10px 5px 10px;
+    border-radius: 5px;
+  }
+  .quiz__body .quiz__question {
+    font-size: x-large;
+  }
+  .quiz__body .option__table li {
+    margin: 5px;
+    /* gap: 10px; */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+  }
+
+  .quiz__body .option__table label {
+    font-size: x-large;
+    font-weight: lighter;
+  }
+  .quiz__buttons button {
+    background-color: #125cb4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin: 5px; */
+    margin-bottom: 10px;
+    border: none;
+  }
+  .quiz__buttons button:disabled {
+    background-color: #f9f9f9;
+    color: black;
+    border: none;
+  }
+}

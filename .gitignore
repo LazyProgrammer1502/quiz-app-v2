@@ -1,0 +1,5 @@
+node_modules
+build
+.env
+admin-panel/build
+frontend/build

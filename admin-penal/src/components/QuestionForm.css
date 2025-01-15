@@ -1,0 +1,43 @@
+.body__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.body__div form {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+form .question__input {
+  margin: 5px 20px;
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+form .option__div {
+  margin: 3px 20px;
+}
+
+.option__div input {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+
+form button {
+  border: none;
+  background-color: #ffffff;
+  margin: 5px 20px;
+  padding: 12px;
+  border-radius: 5px;
+}
