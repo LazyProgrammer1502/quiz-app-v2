@@ -59,7 +59,6 @@ router.route("/:id").put(async (req, res) => {
 });
 
 //Delete a Quiz
-
 router.route("/:id").delete(async (req, res) => {
   try {
     const quiz = await Quiz.findByIdAndDelete(req.params.id);
