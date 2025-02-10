@@ -13,10 +13,10 @@ A full-stack quiz application built with React, Node.js, and MongoDB. This proje
 
 ## Table of Contents
 
-*   [Technologies Used]
-*   [Installation]
-*   [Usage]
-*   [Contributing]
+*   [Technologies Used](#technologies-used)
+*   [Installation](#installation)
+*   [Usage](#usage)
+*   [Contributing](#contributing)
 
 ## Technologies Used
 
